@@ -1,1 +1,2 @@
-Angular widgets
+Angular UI Widgets
+==================
