@@ -4,6 +4,7 @@ Angular UI Widgets
 ## Box Accordion ##
 
 Usage:
+```
 	<box-accordion>
 		<box-accordion-group>
         	<box-accordion-head color={{item.color}}>
@@ -22,8 +23,8 @@ Usage:
             </box-accordion-body>
 		</box-accordion-group>
 	</box-accordion>
-
 With ng-repeat:
+```
 	<box-accordion>
 		<box-accordion-group ng-repeat="item in items">
         	<box-accordion-head color={{item.color}}>
@@ -37,5 +38,5 @@ With ng-repeat:
             </box-accordion-body>
 		</box-accordion-group>
 	</box-accordion>
+```
 [Box Accordion Demo](http://ema93sh.github.io/angular-ui/boxAccordion/index.html "Box Accordion")
-
