@@ -1,0 +1,21 @@
+.color-picker {
+	width: 27px;
+	height: 27px;
+	display: inline-block;
+	background-color: white;
+	overflow: hidden;
+	padding: 0px;
+	float: left;
+}
+
+.color-picker:hover {
+	width: 81px;
+	height: 81px;
+}
+
+.color-picker-block {
+	width: 25px;
+	height: 25px;
+	float: left;
+	border: 1px solid;
+}
