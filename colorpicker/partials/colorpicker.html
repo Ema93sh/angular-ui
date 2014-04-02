@@ -1,0 +1,13 @@
+<div class="color-picker">
+	<div ng-style="{'background-color': selectedColor.hex }" 
+	class="color-picker-block" 
+	ng-click="changeColor(selectedColor)"> 
+	</div>
+	<div ng-style="{'background-color': color.hex }" 
+	ng-repeat="color in otherColors()" 
+	class="color-picker-block" 
+	ng-click="changeColor(color)"> 
+	</div>
+</div>
+<div>
+</div>

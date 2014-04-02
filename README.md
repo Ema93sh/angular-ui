@@ -41,3 +41,11 @@ With ng-repeat:
 	</box-accordion>
 ```
 [Box Accordion Demo](http://ema93sh.github.io/angular-ui/boxAccordion/index.html "Box Accordion")
+
+## Color Picker ##
+
+Usage:
+```
+    <color-picker available-colors="colors" selected-color="color"></color-picker>
+```
+[Color Picker Demo](http://ema93sh.github.io/angular-ui/colorpicker/index.html "Color Picker")
