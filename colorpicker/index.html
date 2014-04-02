@@ -1,0 +1,20 @@
+<html ng-app="testModule">
+	<head>
+		<title> Color picker UI in AngularJS </title>
+		 <!-- library files -->
+        <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+        
+        <!-- custom js -->
+        <script type="text/javascript" src="js/colorpicker.js"></script>
+        <script type="text/javascript" src="js/testModule.js"></script>
+
+        <!-- css -->
+        <link rel="stylesheet" type="text/css" href="css/colorpicker.css">
+        <link rel="stylesheet" type="text/css" href="css/demo.css">
+	</head>
+	<body ng-controller="testController">
+		<h1> Pick a Color :</h1>
+		<div class="demo-block" ng-style="{ 'background-color': color.hex }"></div>
+		<color-picker available-colors="colors" selected-color="color"></color-picker>
+	</body>
+</html>

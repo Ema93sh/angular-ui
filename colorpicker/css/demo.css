@@ -1,0 +1,10 @@
+.demo-block {
+	width: 250px;
+	height: 250px;
+	background-color: #fff;
+	margin: 50px;
+}
+
+body {
+	background-color: #F3F2F2;
+}
