@@ -49,3 +49,7 @@ Usage:
     <color-picker available-colors="colors" selected-color="color"></color-picker>
 ```
 [Color Picker Demo](http://ema93sh.github.io/angular-ui/colorpicker/index.html "Color Picker")
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Ema93sh/angular-ui/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
