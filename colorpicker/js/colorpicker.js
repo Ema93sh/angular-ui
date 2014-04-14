@@ -12,8 +12,16 @@ angular.module('ui.colorpicker', [])
             $scope.availableColors.splice(index, 1);
         };
 
+        $scope.isSelected = function (color) {
+            if (color === $scope.selectedColor) {
+                return true;
+            }
+            return false;
+        };
+
         $scope.changeColor = function (color) {
             $scope.selectedColor = color;
+            $scope.isOpen = false;
         };
 
         $scope.otherColors = function () {
