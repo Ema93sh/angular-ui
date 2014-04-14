@@ -1,13 +1,16 @@
 <div class="color-picker">
-	<div ng-style="{'background-color': selectedColor.hex }" 
-	class="color-picker-block" 
-	ng-click="changeColor(selectedColor)"> 
+	<div  class="color-picker-options"
+	style="margin-bottom:0px"
+	ng-click="isOpen = !isOpen"
+	ng-style="{'background-color': selectedColor.hex}">
 	</div>
-	<div ng-style="{'background-color': color.hex }" 
-	ng-repeat="color in otherColors()" 
-	class="color-picker-block" 
-	ng-click="changeColor(color)"> 
+	<div class="color-picker-triangle" ng-show="isOpen"></div>
+	<div class="color-picker-block" ng-show="isOpen">
+		<div class="color-picker-options"
+		ng-style="{'background-color': color.hex }"
+		ng-class="{ selected: color == selectedColor	 }"
+		ng-repeat="color in availableColors"
+		ng-click="changeColor(color)">
+		</div>
 	</div>
-</div>
-<div>
 </div>
