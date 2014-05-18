@@ -1,3 +1,6 @@
 [submodule "datatable"]
 	path = datatable
 	url = https://github.com/Ema93sh/datatable.git
+[submodule "box-accordion"]
+	path = box-accordion
+	url = https://github.com/Ema93sh/box-accordion.git
